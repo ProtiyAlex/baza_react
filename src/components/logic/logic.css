@@ -1,0 +1,32 @@
+.baza--logic {
+  height: 500px;
+  background-color: rgb(218, 140, 45);
+  width: 100%;
+  display: flex;
+}
+.row,
+.col {
+  background-color: white;
+  color: black;
+  font-weight: normal;
+  font-size: 13px;
+  font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+
+  height: 15px;
+  overflow: visible;
+  min-width: 30px;
+
+  /* border: 1px solid #e2e3e3;
+  border-top: 0;
+  border-left: 0; */
+}
+.row-data {
+  display: flex;
+}
+.column {
+  background-color: white;
+  border: 1px solid #b92d50;
+  border-top: 0;
+  border-left: 0;
+  padding: 0 1px;
+}
